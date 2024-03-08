@@ -1,0 +1,12 @@
+faiss-cpu
+transformers
+sentencepiece
+accelerate
+langchain
+setfit
+rapidfuzz
+peft
+bitsandbytes
+huggingface_hub
+gradio==3.50.2
+gradio-client
