@@ -37,7 +37,17 @@ Because the base model is not fintuned in Chinese but have more better inference
 
 ## Installation
 In the concept, the project can be divided into two parts, Basic_Part and LLM_Part. <br/>
-* <b>Basic_Part</b> contains modules: [LangChain](https://github.com/langchain-ai/langchain) [SetFit](https://github.com/huggingface/setfit) you should install all of them. <br/>
+* <b>Basic_Part</b> contains modules: [LangChain](https://github.com/langchain-ai/langchain) [SetFit](https://github.com/huggingface/setfit) you should install all of them By <br/>
+```bash
+pip install -r basic_requirements.txt
+```
 * <b>LLM_Part</b> are modules that you should choose one to install: [HayStack](https://github.com/deepset-ai/haystack) [chatglm.cpp](https://github.com/li-plus/chatglm.cpp) [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) [ollama](https://github.com/ollama/ollama)<br/>
+
+|LLM Repo Name | CPU version install Command in Linux |
+|---------|--------|
+| HayStack | pip install haystack-ai==2.0.0b5 |
+| chatglm.cpp | pip install chatglm-cpp |
+| llama-cpp-python | pip install llama-cpp-python |
+| ollama | curl -fsSL https://ollama.com/install.sh |
 
 
