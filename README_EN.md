@@ -33,5 +33,5 @@ This project is an attempt to build Chinese Q&A on the LLM support RAG system.
 The Demo use Huggingface Inference Api that call [mistralai/Mistral-7B-Instruct-v0.2](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2) to perform Q&A tasks.
 Because the base model is not fintuned in Chinese but have more better inference capabilities than most models. You can take this deploy version as a free preview version. 
 
-
+<img src="imgs/haystack_demo.png" alt="Girl in a jacket" width="1050" height="300">
 
