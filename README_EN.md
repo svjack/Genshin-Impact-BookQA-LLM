@@ -36,6 +36,7 @@ Because the base model is not fintuned in Chinese but have more better inference
 <img src="imgs/haystack_demo.png" alt="Girl in a jacket" width="1050" height="300">
 
 ## Installation
+### Install Step
 In the concept, the project can be divided into two parts, Basic_Part and LLM_Part. <br/>
 * <b>Basic_Part</b> contains modules: [LangChain](https://github.com/langchain-ai/langchain) [SetFit](https://github.com/huggingface/setfit) you should install all of them By <br/>
 ```bash
@@ -43,11 +44,36 @@ pip install -r basic_requirements.txt
 ```
 * <b>LLM_Part</b> are modules that you should choose one to install: [HayStack](https://github.com/deepset-ai/haystack) [chatglm.cpp](https://github.com/li-plus/chatglm.cpp) [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) [ollama](https://github.com/ollama/ollama)<br/>
 
-|LLM Repo Name | Install Command in Linux |
-|---------|--------|
-| HayStack | pip install haystack-ai==2.0.0b5 |
-| chatglm.cpp | pip install chatglm-cpp |
-| llama-cpp-python | pip install llama-cpp-python==0.2.55 |
-| ollama | wget https://ollama.com/install.sh && sh ./install.sh && pip install ollama && sudo systemctl start ollama |
+|LLM Repo Name | Install Command in Linux | Run Gradio Demo Command |
+|---------|--------|--------|
+| HayStack | pip install -r basic_requirements.txt && pip install haystack-ai==2.0.0b5 | python haystack_bookqa_gradio.py |
+| chatglm.cpp | pip install -r basic_requirements.txt && pip install chatglm-cpp | python chatglm_bookqa_gradio.py |
+| llama-cpp-python | pip install -r basic_requirements.txt && pip install llama-cpp-python==0.2.55 | python mistral_bookqa_gradio.py |
+| ollama | pip install -r basic_requirements.txt && wget https://ollama.com/install.sh && sh ./install.sh && pip install ollama && sudo systemctl start ollama | python ollama_qwen7b_bookqa_gradio.py |
+
+### Note
+I recommand you run the demo on GPU (10GB gpu memory is enough)
+
+## Datasets and Models
+### Datasets
+|Name | Type | HuggingFace Dataset link |
+|---------|--------|--------|
+| svjack/genshin_book_chunks_with_qa_sp | Genshin Impact Book Content | https://huggingface.co/datasets/svjack/genshin_book_chunks_with_qa_sp |
+| svjack/bge_small_book_chunks_prebuld | Genshin Impact Book Embedding | https://huggingface.co/datasets/svjack/bge_small_book_chunks_prebuld |
+
+### Basic Models
+|Name | Type | HuggingFace Model link |
+|---------|--------|--------|
+| svjack/bge-small-book-qa | Embedding model | https://huggingface.co/svjack/bge-small-book-qa |
+| svjack/setfit_info_cls | Text Classifier | https://huggingface.co/svjack/setfit_info_cls |
+
+### LLM Models
+|Name | Type | HuggingFace Model link |
+|---------|--------|--------|
+| svjack/chatglm3-6b-bin | ChatGLM3-6B 4bit quantization | https://huggingface.co/svjack/chatglm3-6b-bin |
+| svjack/mistral-7b | Mistral-7B 4bit quantization | https://huggingface.co/svjack/mistral-7b |
+
+
+
 
 
