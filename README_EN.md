@@ -19,3 +19,19 @@ HoYoverse. The game features an anime-style open-world environment and an action
 
 In the Game, some background settings are described by [Books](https://bbs.mihoyo.com/ys/obc/channel/map/189/68?bbs_presentation_style=no_header).
 Let's take a shot.
+<img src="book_shot.png" alt="Girl in a jacket" width="1050" height="950">
+
+This project is an attempt to build Chinese Q&A on the LLM support RAG system.
+
+### Try Demo on the fly
+
+
+|Name | HuggingFace Space link |
+|---------|--------|
+| Genshin Impact Book QA Haystack Demo 📈 | https://huggingface.co/spaces/svjack/genshin-impact-bookqa-haystack |
+
+The Demo use Huggingface Inference Api that call [mistralai/Mistral-7B-Instruct-v0.2](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2) to perform Q&A tasks.
+Because the base model is not fintuned in Chinese but have more better inference capabilities than most models. You can take this deploy version as a free preview version. 
+
+
+
