@@ -4,7 +4,7 @@
   <h3 align="center">Genshin-Impact-BookQA-LLM</h3>
 
   <p align="center">
-   		A Book Question Answer Project supported by LLM (build by LangChain ChatGLM Mistral OLlama)
+   		A Book Question Answer Project supported by LLM (build by LangChain Haystack ChatGLM Mistral OLlama)
     <br />
   </p>
 </p>
@@ -34,4 +34,10 @@ The Demo use Huggingface Inference Api that call [mistralai/Mistral-7B-Instruct-
 Because the base model is not fintuned in Chinese but have more better inference capabilities than most models. You can take this deploy version as a free preview version. 
 
 <img src="imgs/haystack_demo.png" alt="Girl in a jacket" width="1050" height="300">
+
+## Installation
+In the concept, the project can be divided into two parts, Basic_Part and LLM_Part. <br/>
+* <b>Basic_Part</b> contains modules: [LangChain](https://github.com/langchain-ai/langchain) [SetFit](https://github.com/huggingface/setfit) you should install all of them. <br/>
+* <b>LLM_Part</b> are modules that you should choose one to install: [HayStack](https://github.com/deepset-ai/haystack) [chatglm.cpp](https://github.com/li-plus/chatglm.cpp) [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) [ollama](https://github.com/ollama/ollama)<br/>
+
 
