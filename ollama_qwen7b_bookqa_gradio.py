@@ -407,7 +407,9 @@ texts = book_df["content_chunks_formatted"].dropna().drop_duplicates().values.to
 #embedding_path = "bge-small-book-qa/"
 embedding_path = "svjack/bge-small-book-qa"
 bge_book_embeddings = HuggingFaceEmbeddings(model_name=embedding_path)
-docsearch_bge_loaded = FAISS.load_local("bge_small_book_chunks_prebuld/", bge_book_embeddings)
+docsearch_bge_loaded = FAISS.load_local("bge_small_book_chunks_prebuld/", bge_book_embeddings,
+                                    allow_dangerous_deserialization = True
+                                       )
 
 from setfit import SetFitModel
 #setfit_model = SetFitModel.from_pretrained("setfit_info_cls")
