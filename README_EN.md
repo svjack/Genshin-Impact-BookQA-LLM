@@ -19,7 +19,7 @@ HoYoverse. The game features an anime-style open-world environment and an action
 
 In the Game, some background settings are described by [Books](https://bbs.mihoyo.com/ys/obc/channel/map/189/68?bbs_presentation_style=no_header).
 Let's take a shot.
-<img src="book_shot.png" alt="Girl in a jacket" width="1050" height="950">
+<img src="imgs/book_shot.png" alt="Girl in a jacket" width="1050" height="950">
 
 This project is an attempt to build Chinese Q&A on the LLM support RAG system.
 
