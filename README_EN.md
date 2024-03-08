@@ -43,7 +43,7 @@ pip install -r basic_requirements.txt
 ```
 * <b>LLM_Part</b> are modules that you should choose one to install: [HayStack](https://github.com/deepset-ai/haystack) [chatglm.cpp](https://github.com/li-plus/chatglm.cpp) [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) [ollama](https://github.com/ollama/ollama)<br/>
 
-|LLM Repo Name | CPU version install Command in Linux |
+|LLM Repo Name | Install Command in Linux |
 |---------|--------|
 | HayStack | pip install haystack-ai==2.0.0b5 |
 | chatglm.cpp | pip install chatglm-cpp |
