@@ -47,7 +47,7 @@ pip install -r basic_requirements.txt
 |---------|--------|
 | HayStack | pip install haystack-ai==2.0.0b5 |
 | chatglm.cpp | pip install chatglm-cpp |
-| llama-cpp-python | pip install llama-cpp-python |
+| llama-cpp-python | pip install llama-cpp-python==0.2.55 |
 | ollama | curl -fsSL https://ollama.com/install.sh |
 
 
