@@ -47,7 +47,7 @@ pip install -r basic_requirements.txt
 |LLM Repo Name | Install Command in Linux | Run Gradio Demo Command |
 |---------|--------|--------|
 | HayStack | pip install -r basic_requirements.txt && pip install haystack-ai==2.0.0b5 | python haystack_bookqa_gradio.py |
-| chatglm.cpp | pip install -r basic_requirements.txt && pip install chatglm-cpp | python chatglm_bookqa_gradio.py |
+| chatglm.cpp | pip install -r basic_requirements.txt && pip install chatglm-cpp==0.3.1 | python chatglm_bookqa_gradio.py |
 | llama-cpp-python | pip install -r basic_requirements.txt && pip install llama-cpp-python==0.2.55 | python mistral_bookqa_gradio.py |
 | ollama | pip install -r basic_requirements.txt && wget https://ollama.com/install.sh && sh ./install.sh && pip install ollama==0.1.6 && sudo systemctl start ollama | python ollama_qwen7b_bookqa_gradio.py |
 
