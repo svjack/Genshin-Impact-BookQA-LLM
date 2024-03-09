@@ -85,9 +85,36 @@ LLM Part have 4 different llm frameworks: [HayStack](https://github.com/deepset-
 
 ### Note
 [HayStack](https://github.com/deepset-ai/haystack) [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) and [ollama](https://github.com/ollama/ollama) are repos contains many different llms. You can try to use different llms and change the model name or model 
-file in the gradio scripts.<br/> * For the ability of understanding the query and context, i recommand you use Mistral-7B in Huggingface Inference Api and Intel/neural-chat in ollama. <br/> * For the ability of answer quality in Chinese, i recommand you Qwen-7B in ollama and ChatGLM3-6B in chatglm.cpp. 
+file in the gradio scripts.<br/> * For the ability of understanding the query and context, i recommand you use Mistral-7B in Huggingface Inference Api or Intel/neural-chat in ollama. <br/> * For the ability of answer quality in Chinese, i recommand you Qwen-7B in ollama or ChatGLM3-6B in chatglm.cpp. 
+
+<br/><br/>
+
+<!-- CONTACT -->
+## Contact
+
+<!--
+Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+-->
+svjack - https://huggingface.co/svjack - svjackbt@gmail.com - ehangzhou@outlook.com
+
+<!--
+Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+-->
+Project Link:[https://github.com/svjack/Genshin-Impact-BookQA-LLM](https://github.com/svjack/Genshin-Impact-BookQA-LLM)
 
 
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+* [Genshin Impact](https://genshin.hoyoverse.com/en/)
+* [Huggingface](https://huggingface.co)
+* [Mistral-7B](https://mistral.ai/news/announcing-mistral-7b/)
+* [LangChain](https://github.com/langchain-ai/langchain)
+* [SetFit](https://github.com/huggingface/setfit)
+* [HayStack](https://github.com/deepset-ai/haystack)
+* [chatglm.cpp](https://github.com/li-plus/chatglm.cpp)
+* [llama-cpp-python](https://github.com/abetlen/llama-cpp-python)
+* [ollama](https://github.com/ollama/ollama)
+* [svjack](https://huggingface.co/svjack)
 
 
 
