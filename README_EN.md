@@ -49,7 +49,7 @@ pip install -r basic_requirements.txt
 | HayStack | pip install -r basic_requirements.txt && pip install haystack-ai==2.0.0b5 | python haystack_bookqa_gradio.py |
 | chatglm.cpp | pip install -r basic_requirements.txt && pip install chatglm-cpp | python chatglm_bookqa_gradio.py |
 | llama-cpp-python | pip install -r basic_requirements.txt && pip install llama-cpp-python==0.2.55 | python mistral_bookqa_gradio.py |
-| ollama | pip install -r basic_requirements.txt && wget https://ollama.com/install.sh && sh ./install.sh && pip install ollama && sudo systemctl start ollama | python ollama_qwen7b_bookqa_gradio.py |
+| ollama | pip install -r basic_requirements.txt && wget https://ollama.com/install.sh && sh ./install.sh && pip install ollama==0.1.6 && sudo systemctl start ollama | python ollama_qwen7b_bookqa_gradio.py |
 
 ### Note
 I recommand you run the demo on GPU (10GB gpu memory is enough)
