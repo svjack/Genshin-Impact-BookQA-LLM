@@ -4,7 +4,7 @@
   <h3 align="center">Genshin-Impact-BookQA-LLM</h3>
 
   <p align="center">
-   		A Book Question Answer Project supported by LLM (build by LangChain Haystack ChatGLM Mistral OLlama)
+   		A Genshin Impact Book Question Answer Project supported by LLM (build by LangChain Haystack ChatGLM Mistral OLlama)
     <br />
   </p>
 </p>
