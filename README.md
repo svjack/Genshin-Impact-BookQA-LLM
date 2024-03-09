@@ -88,7 +88,7 @@ LLM部分包括四种不同的llm框架：
 
 ### 注意事项
 [HayStack](https://github.com/deepset-ai/haystack) [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) 
-和 [ollama](https://github.com/ollama/ollama) 都是包含许多不同llm的项目。您可以尝试使用不同的llms，并在Gradio脚本中更改模型名称或模型文件。<br/> 
+和 [ollama](https://github.com/ollama/ollama) 都是包含许多不同llm类型的项目。您可以尝试使用不同的llm，并在Gradio脚本中更改模型名称或模型文件。<br/> 
 * 对于理解查询和上下文的能力，建议使用 Huggingface Inference API 中的Mistral-7B或ollama中的Intel/neural-chat。<br/>
 * 对于中文回答质量的能力，建议使用 ollama中的Qwen-7B或chatglm.cpp中的ChatGLM3-6B。
 
