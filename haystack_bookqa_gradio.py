@@ -36,6 +36,10 @@ if not os.path.exists("bge_small_book_chunks_prebuld"):
         local_dir_use_symlinks = False
     )
 
+kw_list = ["归终"]
+def kw_entity_rec(x, kw_list = kw_list):
+    return list(filter(lambda y: y in x, kw_list))
+
 model_id = "mistralai/Mistral-7B-Instruct-v0.2"
 HF_TOKEN = os.environ.get("HF_READ_TOKEN")
 tgi_chat_generator = HuggingFaceTGIChatGenerator(model=model_id, token=HF_TOKEN,
@@ -315,6 +319,9 @@ def build_relate_ask_list(query, docsearch_bge_loaded, bge_book_embeddings, book
     entity_list = entity_extractor_by_adapter(query)
     if type(entity_list) != type([]):
         entity_list = []
+    for ele in kw_entity_rec(query):
+        if ele not in entity_list:
+            entity_list.append(ele)
 
     d["in_content_entity_list"] = list(map(lambda x:
         list(filter(lambda e: e in x, entity_list))

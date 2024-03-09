@@ -35,6 +35,9 @@ if not os.path.exists("bge_small_book_chunks_prebuld"):
         local_dir_use_symlinks = False
     )
 
+kw_list = ["归终"]
+def kw_entity_rec(x, kw_list = kw_list):
+    return list(filter(lambda y: y in x, kw_list))
 
 async def chat_messages(messages, model_name = "gemma:7b", max_length = 128, show_process = False):
     #message = {'role': 'user', 'content': prompt}
@@ -304,6 +307,9 @@ async def build_relate_ask_list(query, docsearch_bge_loaded, bge_book_embeddings
     entity_list = entity_extractor_by_adapter(query)
     if type(entity_list) != type([]):
         entity_list = []
+    for ele in kw_entity_rec(query):
+        if ele not in entity_list:
+            entity_list.append(ele)
 
     d["in_content_entity_list"] = list(map(lambda x:
         list(filter(lambda e: e in x, entity_list))

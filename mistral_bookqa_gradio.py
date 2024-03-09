@@ -37,6 +37,10 @@ if not os.path.exists("mistral-7b"):
         local_dir_use_symlinks = False
     )
 
+kw_list = ["归终"]
+def kw_entity_rec(x, kw_list = kw_list):
+    return list(filter(lambda y: y in x, kw_list))
+
 '''
 query = "警察是如何破获邪恶计划的？" ## 警 执律 盗
 k = 10
@@ -318,6 +322,9 @@ def build_relate_ask_list(query, docsearch_bge_loaded, bge_book_embeddings, book
     entity_list = entity_extractor_by_adapter(query)
     if type(entity_list) != type([]):
         entity_list = []
+    for ele in kw_entity_rec(query):
+        if ele not in entity_list:
+            entity_list.append(ele)
 
     d["in_content_entity_list"] = list(map(lambda x:
         list(filter(lambda e: e in x, entity_list))
@@ -466,7 +473,7 @@ with gr.Blocks() as demo:
             """<h1 align="center"> <font size="+3"> Genshin Impact Book QA Mistral-7B Demo ⚡ </font> </h1>""",
             elem_id="title",
     )
-    
+
     with gr.Column():
         with gr.Row():
             query = gr.Text(label = "输入问题：", lines = 1, interactive = True, scale = 5.0)
