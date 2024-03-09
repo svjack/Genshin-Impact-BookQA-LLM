@@ -53,7 +53,7 @@ pip install -r basic_requirements.txt
 | ollama | Qwen-7B | pip install -r basic_requirements.txt && wget https://ollama.com/install.sh && sh ./install.sh && pip install ollama==0.1.6 && sudo systemctl start ollama | python ollama_qwen7b_bookqa_gradio.py |
 
 ### 注意事项
-建议在GPU上运行演示（10GB GPU显存足够） <br/><br/>
+建议在GPU上运行演示（10GB GPU显存足够，由于工程结构，有GPU加速要求） <br/><br/>
 
 ## 数据集和模型
 ### 数据集
