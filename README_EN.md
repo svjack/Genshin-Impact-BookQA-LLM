@@ -53,6 +53,13 @@ Below are different LLM Repo types with their install and running command
 | ollama | Qwen-7B | pip install -r basic_requirements.txt && wget https://ollama.com/install.sh && sh ./install.sh && pip install ollama==0.1.6 && sudo systemctl start ollama | python ollama_qwen7b_bookqa_gradio.py |
 
 ### Running Results
+
+<video controls="controls" width="500" height="300">
+  <source src="imgs/haystack_demo.mp4" type="video/mp4">
+  <img src="haystack_demo.jpg">
+</video>
+
+
 Following are results of two problem in different models.
 
 |    | Question                       | HayStack                                                                                                                                                                                                                                                                                                                                                                                                 | Mistral                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | ChatGLM-6B                                                                                                                                                                                                                                                                                                                                                               | QWen-7B                                                                                                                                                                                                                                                      |
