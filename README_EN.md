@@ -65,6 +65,14 @@ https://github.com/svjack/Genshin-Impact-BookQA-LLM/assets/27874014/3c915195-952
 
 
 
+https://github.com/svjack/Genshin-Impact-BookQA-LLM/assets/27874014/99f2ff32-f89e-46c2-8e8e-27a6cda85809
+
+
+
+https://github.com/svjack/Genshin-Impact-BookQA-LLM/assets/27874014/b83c2764-fb49-4574-8ac9-be28ff1cf1f1
+
+
+
 <br/>
 
 Following are results of two problem in different models.
