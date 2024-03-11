@@ -54,11 +54,14 @@ Below are different LLM Repo types with their install and running command
 
 ### Running Results
 
-<video controls="controls" width="500" height="300">
-  <source src="imgs/haystack_demo.mp4" type="video/mp4">
-  <img src="haystack_demo.jpg">
-</video>
 
+
+https://github.com/svjack/Genshin-Impact-BookQA-LLM/assets/27874014/dd90d1ee-669a-4a12-ab4e-86069064e0a4
+
+
+
+
+<br/>
 
 Following are results of two problem in different models.
 
