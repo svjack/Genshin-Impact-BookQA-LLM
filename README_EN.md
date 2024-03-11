@@ -60,6 +60,10 @@ https://github.com/svjack/Genshin-Impact-BookQA-LLM/assets/27874014/dd90d1ee-669
 
 
 
+https://github.com/svjack/Genshin-Impact-BookQA-LLM/assets/27874014/3c915195-952e-4289-bc88-1e44855c5582
+
+
+
 
 <br/>
 
