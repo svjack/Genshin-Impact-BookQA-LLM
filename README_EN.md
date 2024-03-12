@@ -86,7 +86,7 @@ For more compare results, you can take a look at. [compare_resuilt](compare_resu
 
 
 ### Note
-I recommand you run the demo on GPU (10GB gpu memory is enough) <br/><br/>
+I recommand you run the demo on GPU (10GB gpu memory is enough, all examples have tested on single GTX 1080Ti or GTX 3060) <br/><br/>
 
 ## Datasets and Models
 ### Datasets
