@@ -120,7 +120,14 @@ LLM Part have 4 different llm frameworks: [HayStack](https://github.com/deepset-
 [HayStack](https://github.com/deepset-ai/haystack) [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) and [ollama](https://github.com/ollama/ollama) are repos contains many different llms. You can try to use different llms and change the model name or model 
 file in the gradio scripts.<br/> * For the ability of understanding the query and context, i recommand you use Mistral-7B in Huggingface Inference Api or Intel/neural-chat in ollama. <br/> * For the ability of answer quality in Chinese, i recommand you Qwen-7B in ollama or ChatGLM3-6B in chatglm.cpp. 
 
-<br/><br/>
+<br/>
+
+## Futher Reading
+I also release a project about Genshin Impact Character Instruction Models tuned by Lora on LLM (build by ChatGLM3-6B-base Chinese-Llama-2-13B), an attempt to give Instruction Model demo for different genshin impact characters (about 75 characters) <br/>
+If you are interested in it, take a look at [svjack/Genshin-Impact-Character-Instruction](https://github.com/svjack/Genshin-Impact-Character-Instruction) 😊
+
+
+<br/>
 
 <!-- CONTACT -->
 ## Contact
@@ -147,6 +154,7 @@ Project Link:[https://github.com/svjack/Genshin-Impact-BookQA-LLM](https://githu
 * [chatglm.cpp](https://github.com/li-plus/chatglm.cpp)
 * [llama-cpp-python](https://github.com/abetlen/llama-cpp-python)
 * [ollama](https://github.com/ollama/ollama)
+* [svjack/Genshin-Impact-Character-Instruction](https://github.com/svjack/Genshin-Impact-Character-Instruction)
 * [svjack](https://huggingface.co/svjack)
 
 
