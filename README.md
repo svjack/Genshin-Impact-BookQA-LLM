@@ -124,7 +124,14 @@ LLM部分包括四种不同的llm框架：
 * 对于理解查询和上下文的能力，建议使用 Huggingface Inference API 中的Mistral-7B或ollama中的Intel/neural-chat。<br/>
 * 对于中文回答质量的能力，建议使用 ollama中的Qwen-7B或chatglm.cpp中的ChatGLM3-6B。
 
-<br/><br/>
+<br/>
+
+## 进一步阅读
+我还发布了一个关于原神角色指令模型的项目，使用Lora在LLM上调整（由ChatGLM3-6B-base Chinese-Llama-2-13B构建），尝试为不同的原神角色（大约75个角色）提供指令模型演示<br/>
+如果您对此感兴趣，请看一下 [svjack/Genshin-Impact-Character-Instruction](https://github.com/svjack/Genshin-Impact-Character-Instruction) 😊
+
+
+<br/>
 
 <!-- CONTACT -->
 ## Contact
