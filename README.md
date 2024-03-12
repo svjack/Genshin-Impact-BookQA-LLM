@@ -85,7 +85,7 @@ https://github.com/svjack/Genshin-Impact-BookQA-LLM/assets/27874014/b83c2764-fb4
 
 
 ### 注意事项
-建议在GPU上运行演示（10GB GPU显存足够，由于工程结构，有GPU加速要求） <br/><br/>
+建议在GPU上运行演示（10GB GPU显存足够，由于工程结构，有GPU加速要求, 所有的例子均在 GTX 1080Ti 及 GTX 3060 上测试通过） <br/><br/>
 
 ## 数据集和模型
 ### 数据集
