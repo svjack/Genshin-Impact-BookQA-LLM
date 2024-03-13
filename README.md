@@ -45,7 +45,7 @@ pip install -r basic_requirements.txt
  [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) [ollama](https://github.com/ollama/ollama)<br/> <br/>
 
 以下是各种LLM repo类型及其安装和运行命令
-|LLM 工程名称 | LLM 模型 | Linux安装命令 | 运行Gradio Demo命令 |
+|LLM 工程名称 | LLM 模型 | Linux安装命令 | 运行Gradio Demo命令 (访问 127.0.0.1:7860) |
 |---------|--------|--------|--------|
 | HayStack | Mistral-7B (基于 huggingface inference) | pip install -r basic_requirements.txt && pip install haystack-ai==2.0.0b5 | python haystack_bookqa_gradio.py |
 | llama-cpp-python | Mistral-7B (基于 llama-cpp) | pip install -r basic_requirements.txt && pip install llama-cpp-python==0.2.55 | python mistral_bookqa_gradio.py |
