@@ -45,7 +45,7 @@ pip install -r basic_requirements.txt
 * <b>LLM_Part</b> are modules that you should choose one to install: [HayStack](https://github.com/deepset-ai/haystack) [chatglm.cpp](https://github.com/li-plus/chatglm.cpp) [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) [ollama](https://github.com/ollama/ollama)<br/> <br/>
 
 Below are different LLM Repo types with their install and running command
-|LLM Repo Name | LLM Model Name | Install Command in Linux | Run Gradio Demo Command |
+|LLM Repo Name | LLM Model Name | Install Command in Linux | Run Gradio Demo Command (go to 127.0.0.1:7860) |
 |---------|--------|--------|--------|
 | HayStack | Mistral-7B (based on huggingface inference) | pip install -r basic_requirements.txt && pip install haystack-ai==2.0.0b5 | python haystack_bookqa_gradio.py |
 | llama-cpp-python | Mistral-7B (based on llama-cpp) | pip install -r basic_requirements.txt && pip install llama-cpp-python==0.2.55 | python mistral_bookqa_gradio.py |
