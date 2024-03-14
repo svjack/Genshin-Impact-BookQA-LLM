@@ -52,6 +52,12 @@ pip install -r basic_requirements.txt
 | chatglm.cpp | chatglm3-6b | pip install -r basic_requirements.txt && pip install chatglm-cpp==0.3.1 | python chatglm_bookqa_gradio.py |
 | ollama | Qwen-7B | pip install -r basic_requirements.txt && wget https://ollama.com/install.sh && sh ./install.sh && pip install ollama==0.1.6 && sudo systemctl start ollama | python ollama_qwen7b_bookqa_gradio.py |
 
+### 注意事项 
+在[Haystack例子](haystack_bookqa_gradio.py)中, 将会使用环境变量HF_READ_TOKEN作为 Huggingface Api Token, 你可以在脚本中手动设定此变量。
+```python
+HF_TOKEN = os.environ.get("HF_READ_TOKEN")
+```
+
 ### 运行结果
 
 https://github.com/svjack/Genshin-Impact-BookQA-LLM/assets/27874014/dd90d1ee-669a-4a12-ab4e-86069064e0a4
