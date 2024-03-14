@@ -52,6 +52,12 @@ Below are different LLM Repo types with their install and running command
 | chatglm.cpp | chatglm3-6b | pip install -r basic_requirements.txt && pip install chatglm-cpp==0.3.1 | python chatglm_bookqa_gradio.py |
 | ollama | Qwen-7B | pip install -r basic_requirements.txt && wget https://ollama.com/install.sh && sh ./install.sh && pip install ollama==0.1.6 && sudo systemctl start ollama | python ollama_qwen7b_bookqa_gradio.py |
 
+### Note 
+in haystack demo, will get and use HF_TOKEN from environment variables, you can set it mannally.
+```python
+HF_TOKEN = os.environ.get("HF_READ_TOKEN")
+```
+
 ### Running Results
 
 
