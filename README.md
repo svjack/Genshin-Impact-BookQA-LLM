@@ -133,7 +133,7 @@ LLM部分包括四种不同的llm框架：
 <br/>
 
 ## 进一步阅读
-我还发布了一个关于原神角色指令模型的项目，使用Lora在LLM上调整（由ChatGLM3-6B-base Chinese-Llama-2-13B构建），尝试为不同的原神角色（大约75个角色）提供指令模型演示<br/>
+我还发布了一个关于原神角色指令模型的项目，使用Lora在LLM上微调（由ChatGLM3-6B-base Chinese-Llama-2-13B构建），尝试为不同的原神角色（大约75个角色）提供指令模型演示<br/>
 如果您对此感兴趣，请看一下 [svjack/Genshin-Impact-Character-Instruction](https://github.com/svjack/Genshin-Impact-Character-Instruction) 😊
 
 
