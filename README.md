@@ -17,7 +17,7 @@
 战斗系统基于元素魔法和角色换位。
 
 在游戏中描述了部分背景设定，可以参考[书籍](https://bbs.mihoyo.com/ys/obc/channel/map/189/68?bbs_presentation_style=no_header)。
-让我们看一下。（这些书目内容是本工程包含的）
+让我们看一下。（下面的66本书是本项目包含的）
 <img src="imgs/book_shot.png" alt="女孩 wearing a jacket" width="1050" height="950">
 
 本项目是一个尝试构建基于不同大模型的中文问答系统，采用RAG（Retrieval Augmented Generation）架构。
