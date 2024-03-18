@@ -23,6 +23,19 @@ Let's take a shot of the 66 books covered by this project.
 
 This project is an attempt to build Chinese Q&A on the different LLM support RAG system.
 
+<br/>
+
+### Project Feature
+* 1. This project tested the retrieval and question-answering capabilities of three large open source models including Mistral-7B, chatglm3-6b, and Qwen-7B in the Genshin Impact bibliography.
+* 2. Annotate some question data to fine-tune the text recall capability of the retrieval system, fine-tune Embedding, and obtain the fine-tuned model.
+* 3. Some text classification data are annotated, and the classification model is fine-tuned to filter and sort the recalled content for quality, and reorganize the recall knowledge.
+* 4. Embed the entity recognition function to obtain the main entities of the problem.
+* 5. On the premise that the main structure of knowledge search and prompt words are relatively the same, the project also supports Hugginhgface open source API, chatglm.cpp, llama.cpp, ollama
+The versatility of the four mainstream LLM support end frameworks makes it relatively convenient to insert and expand models on the large model end.
+* 6. Compare the advantages of different large models in performing this task, and give some results for the same problem to facilitate search and comparison.
+* 7. Provides webui for calling.
+* 8. The project is based on the quantitatively accelerated CPP file format to ensure that the example can run relatively efficiently and stably in a computing environment with 10GB of gpu memory.
+
 ### Try Demo on the fly
 
 
