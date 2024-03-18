@@ -18,7 +18,7 @@
 HoYoverse. The game features an anime-style open-world environment and an action-based battle system using elemental magic and character-switching. 
 
 In the Game, some background settings are described by [Books](https://bbs.mihoyo.com/ys/obc/channel/map/189/68?bbs_presentation_style=no_header).
-Let's take a shot.
+Let's take a shot of the 66 books covered by this project.
 <img src="imgs/book_shot.png" alt="Girl in a jacket" width="1050" height="950">
 
 This project is an attempt to build Chinese Q&A on the different LLM support RAG system.
