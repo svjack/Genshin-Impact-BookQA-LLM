@@ -145,7 +145,7 @@ file in the gradio scripts.<br/> * For the ability of understanding the query an
 * 1 I also release a project about Genshin Impact Character Instruction Models tuned by Lora on LLM (build by ChatGLM3-6B-base Chinese-Llama-2-13B), an attempt to give Instruction Model demo for different genshin impact characters (about 75 characters) <br/>
 If you are interested in it, take a look at [svjack/Genshin-Impact-Character-Instruction](https://github.com/svjack/Genshin-Impact-Character-Instruction) 😊
 * 2 A enhanced version of this project use [Qwen1.5-14B-Chat](https://huggingface.co/Qwen/Qwen1.5-14B-Chat-GGUF) have been released in
-  [svjack/Genshin-Impact-RAG](https://github.com/svjack/Genshin-Impact-RAG). In kowledge coverage, it not only maintain the knowledge used in this project but also contain knowledge of characters setting; In construction, it has a simpler structure then this with the help of more rigorous model review capabilities from [Qwen1.5-14B-Chat](https://huggingface.co/Qwen/Qwen1.5-14B-Chat-GGUF). And the question can answered by characters in role play manner 😊
+  [svjack/Genshin-Impact-RAG](https://github.com/svjack/Genshin-Impact-RAG). In kowledge coverage, it not only maintain the knowledge used in this project but also contain knowledge of characters setting; In construction, it has a simpler structure than this with the help of more rigorous model review capabilities from [Qwen1.5-14B-Chat](https://huggingface.co/Qwen/Qwen1.5-14B-Chat-GGUF). And the question can answered by characters in role play manner 😊
 
 
 <br/>
