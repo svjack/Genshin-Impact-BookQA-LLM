@@ -179,5 +179,7 @@ Project Link:[https://github.com/svjack/Genshin-Impact-BookQA-LLM](https://githu
 * [chatglm.cpp](https://github.com/li-plus/chatglm.cpp)
 * [llama-cpp-python](https://github.com/abetlen/llama-cpp-python)
 * [ollama](https://github.com/ollama/ollama)
+* [svjack/Genshin-Impact-Character-Instruction](https://github.com/svjack/Genshin-Impact-Character-Instruction)
+* [svjack/Genshin-Impact-RAG](https://github.com/svjack/Genshin-Impact-RAG)
 * [svjack](https://huggingface.co/svjack)
 
