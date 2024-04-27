@@ -146,8 +146,10 @@ LLM部分包括四种不同的llm框架：
 <br/>
 
 ## 进一步阅读
-我还发布了一个关于原神角色指令模型的项目，使用Lora在LLM上微调（由ChatGLM3-6B-base Chinese-Llama-2-13B构建），尝试为不同的原神角色（大约75个角色）提供指令模型演示<br/>
+* 1 我还发布了一个关于原神角色指令模型的项目，使用Lora在LLM上微调（由ChatGLM3-6B-base Chinese-Llama-2-13B构建），尝试为不同的原神角色（大约75个角色）提供指令模型演示<br/>
 如果您对此感兴趣，请看一下 [svjack/Genshin-Impact-Character-Instruction](https://github.com/svjack/Genshin-Impact-Character-Instruction) 😊
+* 2 使用 [Qwen1.5-14B-Chat](https://huggingface.co/Qwen/Qwen1.5-14B-Chat-GGUF) 的此工程加强版已经发布在
+  [svjack/Genshin-Impact-RAG](https://github.com/svjack/Genshin-Impact-RAG). 从知识角度，它不仅包含此工程的书目知识还包含了角色的设定的相关知识; 从工程结构的角度， 借助[Qwen1.5-14B-Chat](https://huggingface.co/Qwen/Qwen1.5-14B-Chat-GGUF)更为严格的内容理解能力，其具有比此工程更为简单的结构。而且支持问题通过角色扮演的方式结合角色设定进行回答 😊
 
 
 <br/>
